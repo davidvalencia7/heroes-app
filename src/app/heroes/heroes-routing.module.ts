@@ -5,10 +5,12 @@ import { AgregarComponent } from './pages/agregar/agregar.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
 import { Routes, RouterModule } from '@angular/router';
 import { BuscarComponent } from './pages/buscar/buscar.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const rutas : Routes = [
   {
     path : '',
+    component : HomeComponent,
     children : [
       {
         path : 'listado',
