@@ -4,7 +4,11 @@ import { IHeroe } from '../../interfaces/heroes.interfaces';
 @Component({
   selector: 'app-heroe-tarjeta',
   templateUrl: './heroe-tarjeta.component.html',
-  styleUrls: []
+  styles: [`
+    mat-card {
+      margin-top : 20px;
+    }
+    `]
 })
 export class HeroeTarjetaComponent implements OnInit {
 
